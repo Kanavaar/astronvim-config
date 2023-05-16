@@ -20,6 +20,24 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- Lsp
+    ["<leader>do"] = {"<cmd>lua vim.diagnostic.open_float()<CR>", desc = "Open diagnostic"},
+    ["<leader>dp"] = {"<cmd>lua vim.diagnostic.goto_prev()<CR>", desc = "Open diagnostic"},
+    ["<leader>dn"] = {"<cmd>lua vim.diagnostic.goto_next()<CR>", desc = "Open diagnostic"},
+    ["<leader>dd"] = {"<cmd>Telescope diagnostics<CR>", desc = "Open diagnostic"},
+
+    -- Files
+    ["<leader>fs"] = {"<cmd>w<cr>", desc = "save file"},
+
+    -- Splits/Window
+    ["<leader>w"] = {name = "window"},
+    ["<leader>wh"] = {"<C-w>h", desc = "switch to left window"},
+    ["<leader>wj"] = {"<C-w>j", desc = "switch to top window"},
+    ["<leader>wk"] = {"<C-w>k", desc = "switch to down window"},
+    ["<leader>wl"] = {"<C-w>l", desc = "switch to right window"},
+    ["<leader>ws"] = {"<cmd>split<cr>", desc = "split horizontal"},
+    ["<leader>wv"] = {"<cmd>vsplit<cr>", desc = "split vertical"},
+    ["<leader>wc"] = {"<C-w>c", desc = "close window"},
   },
   t = {
     -- setting a mapping to false will disable it
