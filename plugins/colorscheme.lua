@@ -4,14 +4,7 @@ return {
     lazy = false,
   },
   {
-    "sainnhe/sonokai",
-    lazy = false,
-    init = function()
-      vim.g.sonokai_style = "default"
-    end,
-  },
-  {
-    "sainnhe/edge",
+    "kanavaar/edge.vim",
     lazy = false,
     init = function()
       vim.g.sonokai_style = "default"
