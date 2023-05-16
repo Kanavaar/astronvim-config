@@ -15,3 +15,5 @@
 This configuration is licensed unser the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)\
 AstroNvim is licensed unser the [GNU General Public License Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
 
+© 2023 Tilman "Kanavaar" Mix
+
